@@ -1,2 +1,3 @@
 instagrapi
+instaloader
 python-dotenv
