@@ -1,8 +1,8 @@
+# functions/unfollowers.py
 import os
 import json
 from instagrapi import Client
 
-# Tidak perlu load_dotenv di Netlify, gunakan ENV dashboard
 def handler(event, context):
     USERNAME = os.environ.get("IG_USERNAME")
     PASSWORD = os.environ.get("IG_PASSWORD")
