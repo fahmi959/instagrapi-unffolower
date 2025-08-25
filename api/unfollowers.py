@@ -10,7 +10,7 @@ def handler(request):
     TWO_FA = os.environ.get("IG_2FA")  # opsional
 
     client = Client()
-    client.delay_range = [1, 3]
+    client.delay_range = [0.5, 1]
 
     try:
         if TWO_FA:
