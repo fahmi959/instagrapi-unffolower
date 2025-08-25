@@ -1,6 +1,6 @@
 [build]
-  functions = "functions"   # folder untuk serverless function
-  publish = "."             # tidak ada frontend, publish root saja
+  functions = "functions"   
+  publish = "."       
 
 [functions.unfollowers]
-  runtime = "python3.11"   # runtime Python 3.11
+  runtime = "python3.11"   
